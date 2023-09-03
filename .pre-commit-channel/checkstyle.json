@@ -1,0 +1,9 @@
+{
+    "mainClass": "com.puppycrawl.tools.checkstyle.Main",
+    "repositories": [
+      "central"
+    ],
+    "dependencies": [
+      "com.puppycrawl.tools:checkstyle:latest.release"
+    ]
+}

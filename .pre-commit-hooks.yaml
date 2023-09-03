@@ -1,4 +1,12 @@
 ---
+- id: checkstyle
+  name: checkstyle
+  description: "Runs checkstyle to check Java code style"
+  language: coursier
+  entry: checkstyle
+  files: \.(java)$
+  pass_filenames: true
+
 - id: scalafmt
   name: scalafmt
   description: "Runs scalafmt to check Scala code style"
