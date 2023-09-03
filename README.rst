@@ -63,7 +63,7 @@ If you want to override the version of the hook, you can set the version of the 
     hooks:
     - id: scalafmt
       args: ["--config-str", "version = 3.7.14, runner.dialect = scala3"]
-      additional_dependencies: ["scalafmt:2.4.2"]
+      additional_dependencies: ["scalafmt:2.4.2"] # Override the version
 
 .. _pre-commit: https://pre-commit.com/#install
 .. _coursier: https://get-coursier.io/docs/cli-installation
