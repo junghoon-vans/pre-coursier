@@ -8,8 +8,8 @@ Requirements
 
 The following tools must be installed:
 
-- pre-commit 2.8.0+
-- coursier
+- [pre-commit](https://pre-commit.com/#install) >= 2.8.0
+- [coursier](https://get-coursier.io/docs/cli-installation)
 
 Getting started
 ---
@@ -21,7 +21,7 @@ Add the following to your `.pre-commit-config.yaml`:
 ```yaml
 - repos:
     repo: https://github.com/junghoon-vans/pre-coursier
-    rev: main
+    rev: v0.1.0
     hooks:
       - id: scalafmt
         args: ["--config-str", "version = 3.7.14, runner.dialect = scala3"]
@@ -41,7 +41,8 @@ git commit -m "Run pre-commit"
 ```
 
 This will run `scalafmt` on all `*.scala|*.sc|*.sbt` files.
-By default, the version of the hook is set to the `latest` version.
+
+> By default, the version of the hook is set to the `latest` version.
 
 How to downgrade the version of the hook
 ---
