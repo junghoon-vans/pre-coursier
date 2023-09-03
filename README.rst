@@ -12,6 +12,12 @@ The following tools must be installed:
 - pre-commit_ >= 2.8.0
 - coursier_
 
+Supported tools
+===============
+
+- checkstyle_
+- scalafmt_
+
 Getting started
 ===============
 
@@ -51,7 +57,7 @@ This will run ``scalafmt`` on all ``*.scala|*.sc|*.sbt`` files.
 How to downgrade the version of the hook
 ========================================
 
-  This feature is available with pre-commit 3.0.0+.
+  This feature is only available for libraries in coursier `default channel`_ and requires pre-commit 3.0.0+.
 
 If you want to override the version of the hook, you can set the version of the hook to run with the ``additional_dependencies`` option.
 
@@ -67,5 +73,9 @@ If you want to override the version of the hook, you can set the version of the 
 
 .. _pre-commit: https://pre-commit.com/#install
 .. _coursier: https://get-coursier.io/docs/cli-installation
+.. _default channel: https://github.com/coursier/apps
+
+.. _checkstyle: https://checkstyle.sourceforge.io
+.. _scalafmt: https://scalameta.org/scalafmt
 
 .. |release| replace:: v0.1.0
