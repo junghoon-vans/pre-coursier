@@ -78,4 +78,4 @@ If you want to override the version of the hook, you can set the version of the 
 .. _checkstyle: https://checkstyle.sourceforge.io
 .. _scalafmt: https://scalameta.org/scalafmt
 
-.. |release| replace:: v0.1.0
+.. |release| replace:: v0.2.0
